@@ -1,0 +1,662 @@
+---
+title: "AI vs. Human: A Comparative Research of Customer Service in Purchasing Agent"
+author:  "Yan Ping Yu"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment="", warning = FALSE, message = FALSE, tidy.opts=list(width.cutoff=55), tidy = TRUE)
+# Make sure to change the name of the file to something more descriptive for your project.
+```
+
+## Part 1:  Research Proposal
+
+### Executive Summary / Abstract
+As a huge fan of luxury brands, one of the biggest challenges is to find a cheapest alternative to our interested products. However, often even after receiving help from a designated customer service agent, we still struggle with getting an accurate and quick response. After learning about artificial intelligence and its automation capabilities, I decided to discover more on whether an automated customer service system could improve efficiency.
+
+
+I have a friend who runs a curated branding business, which disrupts the traditional self-produced branding businesses by providing a more affordable price for luxury products, and was willing to lend out her platform to test the customer service system. The business runs with a “order now, buy later” process, which has a high demand for customer service, especially when products need to be sourced from different countries at the best price. 
+
+
+In the “Featured Brands model”, popular products from major brands are displayed on the website. After placing an order, the product is manually purchased and shipped from the country with the lowest price. As there is a fixed availability for popular products, customer inquiries and purchases are predictable. A potential for increased efficiency and subsequent purchase rate prompted us to develop an automated customer service system. 
+
+
+
+### Statement of the Problem
+
+
+Problem1:
+Ｍanual customer service is capital intensive due to the high workload to frequently replace and update the large variety of products
+
+
+Problem2:
+Ｗhen the service personnel is offline, consumers can only wait when they face a problem.
+
+
+Problem3:
+The automated online customer service can provide order statistics to respond to after-sales service and answer product-related questions. If the latter is performed manually, it is difficult to achieve 100% accuracy, and there will be unavoidable operational errors in this highly repetitive process.
+
+
+### Literature Review
+
+The study is on the difference between automated customer service and human customer service in the featured Brands model and whether automated customer service is more efficient than human customer service. The reseller industry is an industry that helps customers to buy foreign goods through agents or service providers.It is characterized by the fact that the products are usually fixed.The customer first makes a payment to place an order, and the reseller service then helps the customer to buy the goods at a cheaper price. This type of business can provide customers with convenience and choice in purchasing foreign goods. Online customer service is important because featured Brands models are ordering chats with customers online. Online fully automated customer service can be available to guests throughout the day, answering their questions as well as summarizing and categorizing data. Moreover, fully automated customer service can minimize errors.
+
+
+
+### Research Questions, Hypotheses, and Effects
+
+I decided to introduce an automated chatting bot to enhance online customer service efficiency. The study's outcomes will include the waiting response time for users, the error rate, and the average time resolving individual customer issues. The metrics of performance will be comparing waiting response times, the error rates, and the average time taken to resolve individual customer issues between the bot and traditional human customer service.
+
+
+1. 	Compared to traditional human customer service, does the application of the customer service chatting bot save more average waiting response time in seconds for the users?
+
+Notation: Δt<sub>bot</sub> is the waiting response time when using the bot. Δt<sub>human</sub> is the waiting response time when using human customer service.  
+Null Hypothesis H0: Δt<sub>bot</sub> - Δt<sub>human</sub>​ >= 0  
+Alternative Hypothesis H1: Δt<sub>bot</sub> - Δt<sub>human</sub> < 0  
+Effect size: A reduction in waiting response times by -21600 seconds (6hrs based on considering working hours and off-duty hours) will be considered meaningful.
+
+
+
+2. 	Compared to traditional human customer service, does the application of the customer service chatting bot decline the error rate for resolving customer cases?
+
+Notation: ΔE<sub>bot</sub> is the error rate of customer cases when using the bot. ΔE<sub>human</sub> is the error rate of customer cases when using human customer service.  
+Null Hypothesis E0: ΔE<sub>bot</sub> - ΔE<sub>human</sub>​ >= 0  
+Alternative Hypothesis E1: ΔE<sub>bot</sub> - ΔE<sub>human</sub> < 0  
+Effect size: A difference larger than -0.05 will be considered meaningful. 
+
+
+3.  Compared to traditional human customer service, does the application of the customer service chatting bot reduce the average time in minutes for resolving customer issues?
+
+Notation: ΔT<sub>bot</sub> is the average solving time when using the bot. ΔT<sub>human</sub>is the average solving time when using human customer service.  
+Null Hypothesis T0: ΔT<sub>bot</sub> - ΔT<sub>human</sub>​ >= 0  
+Alternative Hypothesis T1: ΔT<sub>bot</sub> - ΔT<sub>human​</sub> < 0  
+Effect size: A reduction in average solving time by -20 minutes will be considered meaningful.
+
+
+### Importance of the Study and Social Impact
+
+The purpose of this study was to demonstrate to organizational leadership the effectiveness of automated customer service systems. It discusses the wider societal implications and potential benefits for various stakeholders, highlighting how the findings could lead to more efficient customer service models in similar industries. Assuming studies show that automated customer service is more efficient, the way luxury dealers serve could change dramatically. This has the potential to reduce costs, improve customer satisfaction, and set new customer service standards for similar business models. In addition, these findings will contribute to a broader discussion about the role of AI and automation in customer service, providing valuable data for other businesses considering similar transformations.
+
+
+### Research Plan
+
+#### Population of Interest
+
+All of the company’s online potential buyers and existing customers.
+
+
+#### Sample Selection
+The inclusion criterion will be individuals who have purchased products or expressed interest in a product of a purchasing agent online. This criterion ensures that participants have some level of familiarity with the purchasing agent's online service. Thus, they can provide the most relevant and direct feedback and experiences related to the service in reality. For exclusion criteria, the first one will be individuals who have shown they have no interest in participating in the company’s relevant surveys. This criterion could reduce the research biases reflected by the unwilling participants. Second, individuals who have had technical issues that prevented them from using the customer service platforms. This criterion could make sure the survey accuracy of service quality, which will not be influenced by technical frustration. The subjects of the study will be divided into several groups. They will be categorized based on the primary interaction type: one group will interact with traditional human customer service; the other one will interact with an automated customer service bot.
+
+
+#### Operational Procedures
+Participants who have purchased products or expressed interest in a product of the purchasing agent online will be recruited from the company’s social media and online platforms. Upon meeting the recruitment criteria and providing informed consent, the participants will be randomly assigned to interact with the human customer service or the automated bot service by the researchers. During the experimentation, the participants should ask the customer service questions based on different inquiries according to their past purchase experiences. Researchers and data collectors will be trained to handle any problems that participants might have during the interaction. Data collectors should understand the research’s goal, and learn how to record data unbiasedly, consistently, and standardized. Those who have bought products on the company’s platform may have an interest in attending the research with the motivation and possibility of having better experiences during purchase. Participants will receive 10% discount rewards for participation. The study will be conducted for one month to gather broad and enough survey data.
+
+
+
+#### Brief Schedule
+
+Stage 1: Preparation and setup
+Week 1-2: Literature review and study design, data collection
+        Complete the study design and review relevant literature to refine the hypothesis.
+        Data collection ensures consistency and accuracy.
+Stage 2: Data collection
+Week 3: Filter available data.
+      Identify research questions and directions.
+Stage 3: Data analysis
+Week4 : Initial data processing
+      Collate the collected data.
+      Initial analysis to identify any immediate problems or trends.
+Stage 4:In-depth data analysis
+Week 5-6: Detailed statistical analysis of the data.
+      Simulation scenarios to draw valid conclusions.
+      Stage 5: Draw a conclusion
+Week 7: Complete all documentation.
+      Identify areas for further research or continuous improvement.
+      Make a report.
+
+The schedule provides a comprehensive framework for the project, ensuring that all major aspects are covered within a seven-week period.
+
+
+
+#### Data Collection
+Customers will engage in real-time conversations with human customer service representatives and with the automated customer service system. From the saved conversations, I would extract the time recorded for each sent message and error rates. 
+
+
+#### Data Security
+
+When implementing a chatbot to assist the customer support in a website, I must be extra cautious when handling the personal information from customers. Especially if the company with the chatbot is collaborating with another company, it would pose a security risk as there would be a potential that the customers would be leaked. Therefore, I should pay extra attention which specific data would be given to the company. Another cautionary measure that would be useful is to first give a heads up to the users. 
+
+
+#### Variables
+
+##### Outcomes (Dependent Variables)
+Waiting time response: This is the duration that users wait for the customer service response after asking a query. It will be measured in seconds.
+Error rate: This is the ratio of the number of customer cases that can not be resolved correctly divided by total cases. 
+Average solving time: This is the average duration taken to solve a customer problem successfully. It will be measured in minutes.
+
+
+
+##### Treatments (Independent Variables)
+Type of Customer services: There are two levels of customer services, human customer service and automated bot service, that participants will be randomly assigned to. It’s hypothesized that automated bot service have better efficiency in dealing with customer issues due to its capability to handle the customer issues without limitation that human nature has.
+
+
+
+##### Other Variables
+Internet Connectivity Quality: Participants should rate their internet connection quality from 1(poor) to 5 (excellent). The stability of the internet connection can have an impact on the time needed to deal with customer queries.
+Technical Proficiency: Participants will have to rate their technical skills from 1(not proficient) to 5(very proficient). The familiarity with technical devices will affect the research outcomes of error rates, time to handle issues, etc.
+
+
+
+### Statistical Analysis Plan  
+For all three research questions, the two-sample t-test will be selected to compare the means of two independent groups to see whether there is a statistically significant difference in outcomes between human customer service and the automated bot service through p-value and whether the simulated effect size is meaningful through comparing to the true effect size found in the literature. The fundamental effect size would be μbot - μhuman. To find each research question’s means and standard deviation of using human customer services or chatbot to calculate the sample size through pwr.t.test.s, I will search various literature to acquire those real numbers. Given that the outcomes of the three research questions are continuous variables, the t-test is a more appropriate statistical method than chi-square test. All tests use a p<0.05 significance threshold. If p-value is less than 0.05, the null hypothesis will be rejected. For all significant results, I will also report the p-value with its 95% confidence interval to demonstrate the range in which the true population parameter lies. In the end, I will calculate the false positives and true negatives for the No-Effect scenario, and the false negatives and true positives for the Expected-Effect scenario.  
+False positives: Simulated Effect size > True Effect Size  & p >= 0.05  
+True negatives: Simulated Effect size > True Effect Size & p < 0.05  
+False Negatives: Simulated Effect size > True Effect Size & p >= 0.05  
+True Positives: Simulated Effect size > True Effect Size & p < 0.05  
+
+
+
+
+### Sample Size and Statistical Power
+Regarding the sample size of the research question, it involves comparing two groups of manual and robotic customer service. The first question in our study is whether customer service chatbots are going to save more customers’ waiting time than traditional human customer service. Through literature, I find that the mean values of the two groups are very different, with 43,200 seconds for manual customer service and 1.7 seconds for bot customer service. There is a large difference between these two numbers since humans have working hours and off-duty hours. Because the effect size is too large, the sample size of this question couldn’t be calculated by R. Thus, I found another literature, which provides the sample sizes but without means and sd, and I use that size in our simulation. The second question is about whether the customer service chatbot reduces the resolution error rate compared to traditional customer service. I found the means would be 0.3198 for human customer service and 0.2762 for bot customer service. Bot customer service is still lower than human customer service. The sample size I get from the calculation is 4089, because the effect size is very small. The third research question is whether bot chat customer service has a shorter average time to solve problems than human customer service. From our observation, I find that human customer service solves problems on average in 82 minutes and bot customer service is about 58 minutes. Bot is still more efficient than human customer service. The sample size I have is 199. For the statistical power, as I looked up a variety of literature, I chose to set it as 0.8.
+
+
+
+
+### Possible Recommendations
+
+Research Question1: 
+If the null hypothesis is not rejected, it suggests that there is no significant difference in waiting response time between human customer service and chatting bot. In this case, I recommend enhancing the chatting bot efficiency in responding to customers’ questions.
+If the null hypothesis is rejected, it indicates that the bot can help significantly reduce customers’ waiting time for customer services. For this situation, I would recommend the institutions expand the usage of chat bot to respond to customers.
+
+Research Question2: 
+If the null hypothesis is not rejected, it reveals that the bot is not as effective in accurately solving customers’ issues. Our recommendation would be to find the reasons why chatbot isn’t effective and to see whether there are solutions to deal with the problems.
+If the null hypothesis is rejected, it shows that a significantly lower error rate with the bot to resolve the customers’ cases. I would recommend investing more funds to elevate the chatbot handling more complicated cases.
+
+Research Question3: 
+If the null hypothesis is not rejected, there's no significant difference in the average solving time by human customer service and chatbot. In this condition, I recommend refining the bot’s problem’solving algorithms or improving the human efficiency through training and resource allocation.
+If the null hypothesis is rejected, a significant reduction in solving time by using the bot. Thus, our recommendation would be to optimize the chatbot efficiency to reduce further time to handle customers’ cases.
+
+
+### Limitations and Uncertainties
+
+Our research focuses on data provided by several chatbots. However, there are several limitations that hinders the reliability and validity of the study. First of all, the ability and technology implemented into establishing each chatbot differs, which could significantly affect the response time and error rate. Moreover, the industry and context that the chatbot is implemented in would cause difference to the results. An industry that requires more technical knowledge could potentially lead to a higher response time and error rate due to the lack of technicality and complexity of the issue. If I could find a way to quantify the relationship between the response time and the capability of the chatbot and context, I could further investigate the research question. 
+
+
+
+## Part 2:  Simulated Studies
+
+### Research Question 1:
+
+#### Scenario 1:  No Effect
+
+##### Simulation
+
+```{r q1_scenario1_simulation}
+#No effect
+library(data.table)
+library(DT)
+
+set.seed(329)
+
+#Set parameters
+B <- 1000  #times
+n <- 70    #sample size  #assume 70
+mean_waiting_time <- 0  #assumed mean waiting time
+sd_waiting_time <- 1    #assumed sd waiting time
+
+#Create simulation data
+simulation.data <- data.table(Experiment = rep(1:B, each = n),
+                              Group = rep(c("Bot", "Human"), each = n / 2))
+
+simulation.data[, WaitingTime := rnorm(n, mean_waiting_time, sd_waiting_time), by = Experiment]
+
+#Define function
+analyze.experiment <- function(the.dat){
+  the.test <- t.test(WaitingTime ~ Group, data = the.dat, alternative = "two.sided")
+  the.effect <- the.test$estimate[1] - the.test$estimate[2]
+  p <- the.test$p.value
+  
+  # 計算是否為假陽性或假陰性
+  false_positive <- (the.effect > 0 & p < 0.05)
+  false_negative <- (the.effect < 0 & p >= 0.05)
+  
+  data.table(effect = the.effect, p = p, 
+             false_positive = false_positive, 
+             false_negative = false_negative)
+}
+
+#Analysis for simulated data
+exp.results <- simulation.data[, analyze.experiment(.SD), by = "Experiment"]
+
+#Calculate results
+mean_effect <- mean(exp.results$effect)
+ci <- quantile(exp.results$effect, probs = c(0.025, 0.975))
+percentage_false_positives <- mean(exp.results$false_positive)
+percentage_true_negatives <- mean(exp.results$effect <= 0 & exp.results$p >= 0.05)
+
+#Create a table to show results
+results_table <- data.table(
+  MeanEffect = mean_effect,
+  LowerCI = ci[1],
+  UpperCI = ci[2],
+  PercentageFalsePositives = percentage_false_positives,
+  PercentageTrueNegatives = percentage_true_negatives
+)
+
+
+DT::datatable(results_table, rownames = FALSE)
+```
+
+##### Analysis
+No Effect: The results from this simulation indicate a mean effect close to zero (0.004882483 seconds) with a 95% confidence interval including zero (-0.462 to +0.459 seconds), suggesting there is no statistically significant difference in waiting times between using the traditional human customer service and using the automated chatbot. Although the percentage of false positives at 0.026 shows that among 2.6% of the cases, the null hypothesis would be incorrectly rejected (Type 1 error), the percentage of true negatives is 46.4%, which is less than 50%. Thus, it implies that the test power is limited to detect the absence of an effect. In conclusion, the chatting bot does not alter average waiting response times in a meaningful way when compared to human customer service. 
+
+
+
+#### Scenario 2:  An Expected Effect
+
+##### Simulation
+
+```{r q1_scenario2_simulation}
+#Expected effect
+n = 70
+library(data.table)
+library(DT)
+set.seed(329)
+
+wt.dat = data.table(Group = c(rep.int(x = "Treatment", time = n/2),
+                              rep.int(x = "Control", times = n/2)))
+
+wt.dat[Group == "Control", WT := round(x = rnorm(n = .N, mean = 43200, sd = 10000), digits = 1)]
+wt.dat[Group == "Treatment", WT :=round(x = rnorm(n = .N, mean = 1.7, sd = 10000), digits = 1)]
+datatable(data = wt.dat)
+
+analyze.experiment <- function(the.dat){
+  require(data.table)
+  setDT(the.dat)
+  
+  the.test <- t.test(x = the.dat[Group == "Treatment",
+                                 WT], y = the.dat[Group == "Control", WT], alternative = "less")
+  
+  the.effect <- the.test$estimate[1] - the.test$estimate[2]
+  p <- the.test$p.value
+  
+  result <- data.table(effect = the.effect, p = p)
+  
+  return(result)
+}
+
+analyze.experiment(the.dat = wt.dat)
+
+
+B <- 1000
+n = 70
+RNGversion(vstr = 3.6)
+set.seed(seed = 4172)
+Experiment <- 1:B
+Group = c(rep.int(x = "Treatment", time = n/2),
+          rep.int(x = "Control", times = n/2))
+
+sim.dat = as.data.table(expand.grid(Experiment = Experiment, Group = Group))
+setorderv(x = sim.dat, cols = c("Experiment", "Group"), order = c(1,1))
+sim.dat[Group == "Control", WT := round(x = rnorm(n = .N, mean = 43200, sd = 10000), digits = 1)]
+sim.dat[Group == "Treatment", WT :=round(x = rnorm(n = .N, mean = 1.7, sd = 10000), digits = 1)]
+dim(sim.dat)
+
+exp.results <- sim.dat[, analyze.experiment(the.dat = .SD),
+                       keyby = "Experiment"]
+DT::datatable(data = round(x = exp.results[1:100,], digits = 3),
+              rownames = F)
+
+
+mean_effect <- mean(exp.results$effect)
+mean_effect
+ci <- quantile(exp.results$effect, probs = c(0.025, 0.975))
+ci
+
+
+# Assuming that the null is true when there is no difference or the difference is not greater than the true effect size
+true_effect_size = 1.7-43200
+false_negatives <- sum(exp.results$p >= 0.05 & exp.results$effect > true_effect_size) / B
+true_positives <- sum(exp.results$p < 0.05 & exp.results$effect > true_effect_size) / B
+false_negatives
+true_positives
+
+
+```
+
+##### Analysis
+Expected effect: Based on our simulation result, the average difference in waiting time between the bot and human customer service is -43149.8 seconds, with the bot being faster. This is much larger than our effect size threshold of -21600 seconds, indicating a significant meaningful effect. The 95% confidence interval is between -47,929.77 and -38,331.88 seconds, far from the 0.05 significance level, implying that there is statistical significance. False Positives 0% means that there were no instances where the simulation failed to detect a true effect when one was present. The percentage of true positives is 50.1%, indicating that in half of the simulations where an effect exists, the test correctly identifies the effect.  The conclusion would be the null hypothesis is rejected. The implementation of the chatting bot is highly effective in reducing the waiting response time for users.
+
+
+
+
+### Research Question 2:
+
+#### Scenario 1:  No Effect
+
+##### Simulation
+
+```{r q2_scenario1_simulation}
+#Research Question2
+#No effect
+library(data.table)
+library(DT)
+
+set.seed(329)
+
+#Set parameters
+B <- 1000  #times
+n <- 4089    #sample size
+mean_error_rate <- 0  #assumed mean error rate
+sd_error_rate <- 1    #assumed sd error rate
+
+#Create simulation data
+simulation.data <- data.table(Experiment = rep(1:B, each = n),
+                              Group = rep(c("Bot", "Human"), each = n / 2))
+
+simulation.data[, ErrorRate := rnorm(n, mean_error_rate, sd_error_rate), by = Experiment]
+
+#Define function
+analyze.experiment <- function(the.dat){
+  the.test <- t.test(ErrorRate ~ Group, data = the.dat, alternative = "two.sided")
+  the.effect <- the.test$estimate[1] - the.test$estimate[2]
+  p <- the.test$p.value
+  
+  # 計算是否為假陽性或假陰性
+  false_positive <- (the.effect > 0 & p < 0.05)
+  false_negative <- (the.effect < 0 & p >= 0.05)
+  
+  data.table(effect = the.effect, p = p, 
+             false_positive = false_positive, 
+             false_negative = false_negative)
+}
+
+#Analysis for simulated data
+exp.results <- simulation.data[, analyze.experiment(.SD), by = "Experiment"]
+
+#Calculate results
+mean_effect <- mean(exp.results$effect)
+ci <- quantile(exp.results$effect, probs = c(0.025, 0.975))
+percentage_false_positives <- mean(exp.results$false_positive)
+percentage_true_negatives <- mean(exp.results$effect <= 0 & exp.results$p >= 0.05)
+
+#Create a table to show results
+results_table <- data.table(
+  MeanEffect = mean_effect,
+  LowerCI = ci[1],
+  UpperCI = ci[2],
+  PercentageFalsePositives = percentage_false_positives,
+  PercentageTrueNegatives = percentage_true_negatives
+)
+
+
+DT::datatable(results_table, rownames = FALSE)
+
+
+
+```
+
+##### Analysis
+No Effect: The mean effect size of -0.000800788 is very close to zero, suggesting that there is no significant difference between the bot and human error rates. The 95% confidence interval is wide and includes zero, which means there is no significant difference between the bot and human error rates. The false positives 2.5% suggest that there is a 2.5% risk of incorrectly rejecting the null hypothesis when it is true. True negatives at 49.6% indicate that there would be half of the simulations that failed to reject the null hypothesis when it was indeed true. Based on these results, we failed to reject the null hypothesis, concluding that there is no evidence to support that the bot reduces the error rate compared to human customer service. 
+
+
+
+
+#### Scenario 2:  An Expected Effect
+
+##### Simulation
+
+```{r q2_scenario2_simulation}
+#Expected effect
+n = 4089
+library(data.table)
+library(DT)
+set.seed(329)
+
+er.dat = data.table(Group = c(rep.int(x = "Treatment", time = n/2),
+                              rep.int(x = "Control", times = n/2)))
+
+er.dat[Group == "Control", ER := round(x = rnorm(n = .N, mean = 0.3198, sd = 0.79), digits = 1)]
+er.dat[Group == "Treatment", ER :=round(x = rnorm(n = .N, mean = 0.2762, sd = 0.79), digits = 1)]
+datatable(data = er.dat)
+
+analyze.experiment <- function(the.dat){
+  require(data.table)
+  setDT(the.dat)
+  
+  the.test <- t.test(x = the.dat[Group == "Treatment",
+                                 ER], y = the.dat[Group == "Control", ER], alternative = "less")
+  
+  the.effect <- the.test$estimate[1] - the.test$estimate[2]
+  p <- the.test$p.value
+  
+  result <- data.table(effect = the.effect, p = p)
+  
+  return(result)
+}
+
+analyze.experiment(the.dat = er.dat)
+
+
+B <- 1000
+n = 4089
+RNGversion(vstr = 3.6)
+set.seed(seed = 4172)
+Experiment <- 1:B
+Group = c(rep.int(x = "Treatment", time = n/2),
+          rep.int(x = "Control", times = n/2))
+
+sim.dat = as.data.table(expand.grid(Experiment = Experiment, Group = Group))
+setorderv(x = sim.dat, cols = c("Experiment", "Group"), order = c(1,1))
+sim.dat[Group == "Control", ER := round(x = rnorm(n = .N, mean = 0.3198, sd = 0.79), digits = 1)]
+sim.dat[Group == "Treatment", ER :=round(x = rnorm(n = .N, mean = 0.2762, sd = 0.79), digits = 1)]
+dim(sim.dat)
+
+exp.results <- sim.dat[, analyze.experiment(the.dat = .SD),
+                       keyby = "Experiment"]
+DT::datatable(data = round(x = exp.results[1:100,], digits = 3),
+              rownames = F)
+
+
+mean_effect <- mean(exp.results$effect)
+mean_effect
+ci <- quantile(exp.results$effect, probs = c(0.025, 0.975))
+ci
+
+
+# Assuming that the null is true when there is no difference or the difference is not greater than the true effect size
+true_effect_size = -0.055
+false_negatives <- sum(exp.results$p >= 0.05 & exp.results$effect > true_effect_size) / B
+true_positives <- sum(exp.results$p < 0.05 & exp.results$effect > true_effect_size) / B
+false_negatives
+true_positives
+
+```
+
+##### Analysis
+Expected effect: The mean effect size of -0.04427065 suggests that there is a reduction in error rate when using the bot, which is close to our -0.05  threshold for meaningful effect size. The 95% confidence interval includes zero, indicating that while the average effect suggests a decrease in error rates with the bot, the statistically significant difference could be very small. The true negatives at 45.4%, which is less than the half, indicates that there is 45.4% of the simulations that the null hypothesis was correctly not rejected, suggesting that there was no significant difference between the bot and human error rates. The true positives at 21.9% suggest that in 21.9% of the simulations, the alternative hypothesis was correctly accepted, but the number is small as well, showing low credibility. Thus according to the result, the decision to reject or fail to reject the null hypothesis would likely depend on the significance level. Given the confidence interval and the proximity of the mean effect to the meaningful difference threshold, it's possible that a statistical test could go either way, implying there should be further investigation to determine whether the chatbot has a lower error rate in dealing with customers’ cases than human customer service. 
+
+
+### Research Question 3:
+
+#### Scenario 1:  No Effect
+
+##### Simulation
+
+```{r q3_scenario1_simulation}
+#Research Question3
+#No effect
+library(data.table)
+library(DT)
+
+set.seed(329)
+
+#Set parameters
+B <- 1000  #times
+n <- 199    #sample size
+mean_handling_time <- 0  
+sd_handling_time <- 1   
+
+#Create simulation data
+simulation.data <- data.table(Experiment = rep(1:B, each = n),
+                              Group = rep(c("Bot", "Human"), each = n / 2))
+
+simulation.data[, HandlingTime := rnorm(n, mean_handling_time, sd_handling_time), by = Experiment]
+
+#Define function
+analyze.experiment <- function(the.dat){
+  the.test <- t.test(HandlingTime ~ Group, data = the.dat, alternative = "two.sided")
+  the.effect <- the.test$estimate[1] - the.test$estimate[2]
+  p <- the.test$p.value
+  
+  # 計算是否為假陽性或假陰性
+  false_positive <- (the.effect > 0 & p < 0.05)
+  false_negative <- (the.effect < 0 & p >= 0.05)
+  
+  data.table(effect = the.effect, p = p, 
+             false_positive = false_positive, 
+             false_negative = false_negative)
+}
+
+#Analysis for simulated data
+exp.results <- simulation.data[, analyze.experiment(.SD), by = "Experiment"]
+
+#Calculate results
+mean_effect <- mean(exp.results$effect)
+ci <- quantile(exp.results$effect, probs = c(0.025, 0.975))
+percentage_false_positives <- mean(exp.results$false_positive)
+percentage_true_negatives <- mean(exp.results$effect <= 0 & exp.results$p >= 0.05)
+
+#Create a table to show results
+results_table <- data.table(
+  MeanEffect = mean_effect,
+  LowerCI = ci[1],
+  UpperCI = ci[2],
+  PercentageFalsePositives = percentage_false_positives,
+  PercentageTrueNegatives = percentage_true_negatives
+)
+
+
+DT::datatable(results_table, rownames = FALSE)
+
+
+```
+
+##### Analysis
+No Effect: The mean effect size is extremely close to zero, suggesting that there is virtually no difference in the average solving time when using the bot compared to human customer service. The 95% confidence interval is very wide, from about -25.6 minutes to +26.4 minutes. This wide interval indicates a high degree of uncertainty about the true effect size. While for false positives at 2%, it indicates that there is a 2% chance of incorrectly rejecting the null hypothesis when it is actually true, the true negatives At 48.3% suggest that in nearly half of the simulations, the null hypothesis was correctly not rejected, indicating that the bot did not have an effect on solving time. It would likely lead to a conclusion that the customer service chatting bot does not have a meaningful impact on the average solving time for customer issues. The effect size does not approach the threshold of -20 minutes that I've considered meaningful, and the confidence interval is too wide to make a define the bot's efficiency.
+
+
+
+#### Scenario 2:  An Expected Effect
+
+```{r }
+# If your research questions are part of a single experiment, then simulate your data here.
+
+
+```
+
+
+##### Simulation
+
+```{r q3_scenario2_simulation}
+#Expected effect
+n = 199
+library(data.table)
+library(DT)
+set.seed(329)
+
+rr.dat = data.table(Group = c(rep.int(x = "Treatment", time = n/2),
+                              rep.int(x = "Control", times = n/2)))
+
+rr.dat[Group == "Control", RR := round(x = rnorm(n = .N, mean = 82, sd = 100), digits = 1)]
+rr.dat[Group == "Treatment", RR :=round(x = rnorm(n = .N, mean = 57, sd = 100), digits = 1)]
+datatable(data = rr.dat)
+
+analyze.experiment <- function(the.dat){
+  require(data.table)
+  setDT(the.dat)
+  
+  the.test <- t.test(x = the.dat[Group == "Treatment",
+                                 RR], y = the.dat[Group == "Control", RR], alternative = "less")
+  
+  the.effect <- the.test$estimate[1] - the.test$estimate[2]
+  p <- the.test$p.value
+  
+  result <- data.table(effect = the.effect, p = p)
+  
+  return(result)
+}
+
+analyze.experiment(the.dat = rr.dat)
+
+
+B <- 1000
+n = 199
+RNGversion(vstr = 3.6)
+set.seed(seed = 4172)
+Experiment <- 1:B
+Group = c(rep.int(x = "Treatment", time = n/2),
+          rep.int(x = "Control", times = n/2))
+
+sim.dat = as.data.table(expand.grid(Experiment = Experiment, Group = Group))
+setorderv(x = sim.dat, cols = c("Experiment", "Group"), order = c(1,1))
+sim.dat[Group == "Control", RR := round(x = rnorm(n = .N, mean = 82, sd = 100), digits = 1)]
+sim.dat[Group == "Treatment", RR :=round(x = rnorm(n = .N, mean = 57, sd = 100), digits = 1)]
+dim(sim.dat)
+
+exp.results <- sim.dat[, analyze.experiment(the.dat = .SD),
+                       keyby = "Experiment"]
+DT::datatable(data = round(x = exp.results[1:100,], digits = 3),
+              rownames = F)
+
+
+mean_effect <- mean(exp.results$effect)
+mean_effect
+ci <- quantile(exp.results$effect, probs = c(0.025, 0.975))
+ci
+
+
+# Assuming that the null is true when there is no difference or the difference is not greater than the true effect size
+true_effect_size = -25
+false_negatives <- sum(exp.results$p >= 0.05 & exp.results$effect > true_effect_size) / B
+true_positives <- sum(exp.results$p < 0.05 & exp.results$effect > true_effect_size) / B
+false_negatives
+true_positives
+
+```
+
+##### Analysis
+Expected effect: The mean effect size is -24.48036 minutes, which exceeds the threshold of -20 minutes for a meaningful effect. This suggests that the bot, on average, significantly reduces the solving time for customer issues. The 95% confidence interval for the mean effect is from -52.097399 to 3.727677. While the interval does include values less than -20 minutes, indicating a meaningful reduction, it also includes values above zero, implying there is no significant difference between those two methods. The true negatives 48% indicate that the null hypothesis was correctly not rejected when there was actually no effect of the bot on solving time in nearly half of the simulations. For true positives at 5.1%, it suggests that in a small fraction of the simulations, the alternative hypothesis was correctly accepted, meaning the bot was found to reduce solving times. This would lead to the conclusion that although the simulated effect size is large, I should do further studies to confirm the bot's effectiveness in reducing solving time reliably when compared to manual customer service due to no statistical significance shown by the confidence interval.
+
+
+
+## References
+
+
+[1]Haugeland, I. K. F., Følstad, A., Taylor, C., & Alexander, C. (2022). Understanding the user experience of customer service chatbots: An experimental study of chatbot interaction design. International Journal of Human-Computer Studies, 161, 102788. https://doi.org/10.1016/j.ijhcs.2022.102788  
+‌
+[2] Crolic, C., Thomaz, F., Hadi, R., & Stephen, A. T. (2021). Blame the Bot: Anthropomorphism and Anger in Customer–Chatbot Interactions. Journal of Marketing, 86(1), 002224292110456. https://doi.org/10.1177/00222429211045687  
+‌
+[3] Song, M., Xing, X., Duan, Y., Cohen, J., & Mou, J. (2022). Will artificial intelligence replace human customer service? The impact of communication quality and privacy risks on adoption intention. Journal of Retailing and Consumer Services, 66, 102900. https://doi.org/10.1016/j.jretconser.2021.102900  
+‌
+[4] Poggi, N., Carrera, D., Gavaldà, R., Ayguadé, E., & Torres, J. (2012). A methodology for the evaluation of high response time on E-commerce users and sales. Information Systems Frontiers, 16(5), 867–885. https://doi.org/10.1007/s10796-012-9387-4  
+‌
+[5] Misischia, C. V., Poecze, F., & Strauss, C. (2022). Chatbots in customer service: Their relevance and impact on service quality. Procedia Computer Science, 201(201), 421–428. Sciencedirect. https://doi.org/10.1016/j.procs.2022.03.055  
+‌
+[6] Human error analysis for customer service quality: An ergonomics approach toward service quality improvement - ProQuest. (n.d.). Www.proquest.com. Retrieved December 7, 2023, from https://www.proquest.com/docview/304647312?pq-origsite=gscholar&fromopenview=true  
+‌
+[7] Dabholkar, P. A. (1996). Consumer evaluations of new technology-based self-service options: An investigation of alternative models of service quality. International Journal of Research in Marketing, 13(1), 29–51. https://doi.org/10.1016/0167-8116(95)00027-5  
+‌
+[8] Chung, M., Ko, E., Joung, H., & Kim, S. J. (2020). Chatbot e-service and Customer Satisfaction regarding Luxury Brands. Journal of Business Research, 117, 587–595. https://doi.org/10.1016/j.jbusres.2018.10.004  
+‌
+[10] Godey, B., Manthiou, A., Pederzoli, D., Rokka, J., Aiello, G., Donvito, R., & Singh, R. (2016). Social media marketing efforts of luxury brands: Influence on brand equity and consumer behavior. Journal of Business Research, 69(12), 5833–5841. Sciencedirect. https://doi.org/10.1016/j.jbusres.2016.04.181  
+‌
+[11] Chung, M., Ko, E., Joung, H., & Kim, S. J. (2020). Chatbot e-service and Customer Satisfaction regarding Luxury Brands. Journal of Business Research, 117, 587–595. https://doi.org/10.1016/j.jbusres.2018.10.004  
+‌
+[12] How can you use marketing analytics to improve your chatbot’s customer support response times? (n.d.). Www.linkedin.com. Retrieved December 7, 2023, from https://www.linkedin.com/advice/0/how-can-you-use-marketing-analytics-improve-1e  
+
+
+[13] Gnewuch, U., Morana, S., Adam, M., Maedche, A., Maedche, & Alexander. (2018). Association for Information Systems AIS Electronic Library (AISeL) Faster is Not Always Better: Understanding the Effect of Dynamic Response Delays in Human- Chatbot Interaction Recommended Citation. https://web.archive.org/web/20200322152504id_/https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1112&context=ecis2018_rp  
+‌
